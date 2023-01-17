@@ -1,0 +1,21 @@
+.dashboard_link_container {
+  min-height: 700px;
+}
+.dashboard_list {
+  padding: 20px 0;
+}
+.dashboard_list a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #9a0404;
+  padding: 20px;
+}
+.dashboard_list a:hover {
+  color: teal;
+  padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .dashboard_link_container {
+    min-height: 0;
+  }
+}

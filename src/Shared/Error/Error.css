@@ -1,0 +1,18 @@
+.error-container {
+  background: white;
+}
+.error {
+  width: 600px;
+  height: auto;
+  margin: 100px auto;
+}
+.error_text {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .error {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
