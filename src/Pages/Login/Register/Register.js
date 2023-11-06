@@ -74,14 +74,17 @@ const Register = () => {
     <div className="login_container">
       <div className="login_form">
         <h1
-          style={{ color: "#f06425" }}
+          style={{ color: " hwb(0 7% 36%)" }}
           className="text-center mb-5 fw-bold fs-3"
         >
           Register
         </h1>
         <button
           onClick={handleSignInGoogle}
-          style={{ color: "#f06425", border: "1px solid #f06425" }}
+          style={{
+            color: " hwb(0 7% 36%)",
+            border: "1px solid  hwb(0 7% 36%)",
+          }}
           className="p-2 rounded fs-4 w-100 fw-bold"
         >
           Continue With Google
@@ -117,7 +120,7 @@ const Register = () => {
             <option value="seller">Seller Account</option>
           </select>
           <input
-            style={{ background: "#f06425" }}
+            style={{ background: " hwb(0 7% 36%)" }}
             className="btn text-light d-block w-100 btn-lg my-3"
             type="submit"
           />
