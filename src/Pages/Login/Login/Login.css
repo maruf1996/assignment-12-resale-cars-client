@@ -2,9 +2,9 @@
   background: white;
 }
 .login_form {
-  width: 35%;
+  width: 30%;
   margin: 100px auto;
-  border: 1px solid grey;
+  border: 1px solid teal;
   padding: 50px;
   border-radius: 10px;
 }

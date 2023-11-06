@@ -1,7 +1,8 @@
 .footerArea {
   width: 100%;
   height: auto;
-  color: #9a0404;
+  background: #bbe0f3;
+  color: black;
   margin-top: 3px;
 }
 
@@ -32,20 +33,18 @@
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  background-color: #055481;
-  color: white;
+  background-color: white;
+  color: #055481;
   text-align: center;
   line-height: 40px;
   font-size: 22px;
   cursor: pointer;
   padding: 5px;
-  border: 2px solid#055481;
 }
 
 .socialIcon .icon:hover {
   color: #fff;
-  background-color: cornflowerblue;
-  border: 2px solid cornflowerblue;
+  background-color: #055481;
   border-radius: 50%;
 }
 

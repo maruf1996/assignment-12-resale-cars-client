@@ -1,5 +1,5 @@
 .banner_container {
-  background: white;
+  background: #bbe0f3;
   padding: 20px 0;
 }
 .banner {
@@ -8,6 +8,7 @@
 .banner_text {
   margin-top: 100px;
   padding: 0 100px;
+  color: black;
 }
 .banner_img {
   width: 100%;

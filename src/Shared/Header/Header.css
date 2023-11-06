@@ -1,22 +1,18 @@
 .header {
   margin-bottom: 3px;
+  background: #bbe0f3;
+  color: hwb(0 7% 36%);
+  padding: 5px 0;
 }
 .navbar {
-  width: 98%;
+  width: 85%;
   margin: 0 auto;
 }
 .web-title-1 {
   font-family: "Ubuntu", sans-serif;
   font-size: 45px;
-  color: #417139;
   font-weight: bold;
-  margin-top: 5px;
-}
-.web-title {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 45px;
-  color: #e62f34;
-  font-weight: bold;
+  color: #4a0505;
   margin-top: 5px;
 }
 .navbar_nav a {
@@ -24,19 +20,15 @@
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
-  color: #9a0404;
+  color: hwb(0 7% 36%);
 }
-.navbar_nav a:hover {
-  color: white;
-  background-color: #9a0404;
-}
+
 @media only screen and (max-width: 600px) {
   .navbar {
     width: 96%;
   }
-  .web-title {
-    font-family: "Courgette", cursive;
-    font-size: 25px;
+  .web-title-1 {
+    font-size: 19px;
   }
   .navbar a {
     padding: 0.3rem 0;
